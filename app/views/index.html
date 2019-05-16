@@ -1,0 +1,60 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Verify trust framework prototype collection
+      </h1>
+      <p>
+        This is a collection of GOV.UK and non-GOV.UK prototypes documenting possible approaches and use cases for the new Verify trust framework.
+      </p>
+
+      <h2 class="govuk-heading-m">Prototypes</h2>
+
+      <ul class="govuk-list">
+        <li>
+          <span class="link-prototype">
+            <a href="/docs/tutorials-and-examples">Prototype name and description</a>
+          </span>
+          <span class="link-code"><a href="#">Link to code</a></span> 
+        </li>
+        
+        <li>
+          <span class="link-prototype">
+            <a href="/docs/tutorials-and-examples">Prototype name and description</a>
+          </span>
+          <span class="link-code"><a href="#">Link to code</a></span> 
+        </li>
+        
+        <li>
+          <span class="link-prototype">
+            <a href="/docs/tutorials-and-examples">Prototype name and description</a>
+          </span>
+          <span class="link-code"><a href="#">Link to code</a></span> 
+        </li>
+        
+
+      </ul>
+    </div>
+</div>
+
+<style type="text/css">
+  .link-prototype {
+    display: inline-block;
+  }
+  .link-code {
+    display: inline-block;
+    float:right;
+  }
+
+
+</style>
+
+{% endblock %}
